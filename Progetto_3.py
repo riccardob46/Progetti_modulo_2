@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime, timedelta
 
-# --- PREPARAZIONE DATASET (Stessa logica di prima) ---
+# --- PREPARAZIONE DATASET ---
 def create_dataset():
     np.random.seed(42)
     data = []
